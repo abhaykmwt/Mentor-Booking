@@ -1,10 +1,20 @@
-body{
-    width: 100%;
-}
-nav{
+body {
     width: 100%;
 }
 
-.navbar{
+nav {
     width: 100%;
+    position: absolute;
+
+}
+
+.navbar-toggler {}
+
+
+@media (max-width:750px) {
+    .navbar-brand {
+        padding-right: 50%;
+        margin: auto;
+    }
+
 }

@@ -9,13 +9,13 @@ const Navbar = () => {
   };
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-#e3f2fd">
-        <div class="container-fluid mr-5">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary bg-#e3f2fd d-flex justify-content-end">
+        <div class="container-fluid ml-5 ">
           <a class="navbar-brand" href="/Booking">
-            <span style={{ color: "aquamarine" }}>M</span>Booking
+            <span style={{ color: " rgb(86,110,181)" }}>M</span>Booking
           </a>
           <button
-            class="navbar-toggler"
+            class="navbar-toggler mx-auto"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="/BookingnavbarSupportedContent"

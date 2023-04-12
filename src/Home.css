@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main {
+    margin: 10%;
+    margin-top: 15%;
+}
+
+h1 {
+    width: 100%;
+    color: rgb(86, 110, 181);
+}
+
+p {
+    width: 100%;
+}
+
+button {
+    padding: 0.5%;
+    border-radius: 8px;
+    background-color: rgb(86, 110, 181);
+}
+
+img {
+    height: 55vh;
+}
+
+.side-img {
+    margin-right: 10%;
+}
+
+@media (max-width:750px) {
+    .container1 {
+        flex-direction: column-reverse;
+    }
+
+    button {
+        text-align: center;
+        margin: auto;
+        padding: 3%;
+    }
+
+    img {
+        height: 45vh;
+    }
+
+    .side-img {
+        margin-right: 0%;
+    }
+
+}
